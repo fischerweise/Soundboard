@@ -1,0 +1,716 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19B49C46286C6ED0007E40A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B49C45286C6ED0007E40A9 /* AppDelegate.swift */; };
+		19B49C48286C6ED0007E40A9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B49C47286C6ED0007E40A9 /* SceneDelegate.swift */; };
+		19B49C4A286C6ED0007E40A9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B49C49286C6ED0007E40A9 /* ViewController.swift */; };
+		19B49C4D286C6ED0007E40A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19B49C4B286C6ED0007E40A9 /* Main.storyboard */; };
+		19B49C4F286C6ED5007E40A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19B49C4E286C6ED5007E40A9 /* Assets.xcassets */; };
+		19B49C52286C6ED5007E40A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19B49C50286C6ED5007E40A9 /* LaunchScreen.storyboard */; };
+		19B49C57286C6ED5007E40A9 /* Soundboard WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 19B49C56286C6ED5007E40A9 /* Soundboard WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		19B49C5D286C6ED5007E40A9 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19B49C5B286C6ED5007E40A9 /* Interface.storyboard */; };
+		19B49C5F286C6ED7007E40A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19B49C5E286C6ED7007E40A9 /* Assets.xcassets */; };
+		19B49C65286C6ED7007E40A9 /* Soundboard WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 19B49C64286C6ED7007E40A9 /* Soundboard WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		19B49C6A286C6ED7007E40A9 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B49C69286C6ED7007E40A9 /* InterfaceController.swift */; };
+		19B49C6C286C6ED7007E40A9 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B49C6B286C6ED7007E40A9 /* ExtensionDelegate.swift */; };
+		19B49C6E286C6ED7007E40A9 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B49C6D286C6ED7007E40A9 /* ComplicationController.swift */; };
+		19B49C70286C6ED9007E40A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19B49C6F286C6ED9007E40A9 /* Assets.xcassets */; };
+		19B49C80286C7481007E40A9 /* SoundPlaying.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B49C7F286C7481007E40A9 /* SoundPlaying.swift */; };
+		19B49C88286C7845007E40A9 /* Underground.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 19B49C82286C7845007E40A9 /* Underground.mp3 */; };
+		19B49C89286C7845007E40A9 /* LevelComplete.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 19B49C83286C7845007E40A9 /* LevelComplete.mp3 */; };
+		19B49C8A286C7845007E40A9 /* RunningAbout.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 19B49C84286C7845007E40A9 /* RunningAbout.mp3 */; };
+		19B49C8B286C7845007E40A9 /* Miss.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 19B49C85286C7845007E40A9 /* Miss.mp3 */; };
+		19B49C8C286C7845007E40A9 /* SavedthePrincess.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 19B49C86286C7845007E40A9 /* SavedthePrincess.mp3 */; };
+		19B49C8D286C7845007E40A9 /* GameOver.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 19B49C87286C7845007E40A9 /* GameOver.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		19B49C58286C6ED5007E40A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19B49C3A286C6ECF007E40A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19B49C55286C6ED5007E40A9;
+			remoteInfo = "Soundboard WatchKit App";
+		};
+		19B49C66286C6ED7007E40A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19B49C3A286C6ECF007E40A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19B49C63286C6ED7007E40A9;
+			remoteInfo = "Soundboard WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		19B49C77286C6ED9007E40A9 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				19B49C65286C6ED7007E40A9 /* Soundboard WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19B49C7B286C6ED9007E40A9 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				19B49C57286C6ED5007E40A9 /* Soundboard WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		19B49C42286C6ED0007E40A9 /* Soundboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Soundboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		19B49C45286C6ED0007E40A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		19B49C47286C6ED0007E40A9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		19B49C49286C6ED0007E40A9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		19B49C4C286C6ED0007E40A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		19B49C4E286C6ED5007E40A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		19B49C51286C6ED5007E40A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		19B49C53286C6ED5007E40A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19B49C56286C6ED5007E40A9 /* Soundboard WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Soundboard WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		19B49C5C286C6ED5007E40A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		19B49C5E286C6ED7007E40A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		19B49C64286C6ED7007E40A9 /* Soundboard WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Soundboard WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		19B49C69286C6ED7007E40A9 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		19B49C6B286C6ED7007E40A9 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		19B49C6D286C6ED7007E40A9 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		19B49C6F286C6ED9007E40A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		19B49C71286C6ED9007E40A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19B49C7F286C7481007E40A9 /* SoundPlaying.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundPlaying.swift; sourceTree = "<group>"; };
+		19B49C82286C7845007E40A9 /* Underground.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Underground.mp3; sourceTree = "<group>"; };
+		19B49C83286C7845007E40A9 /* LevelComplete.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = LevelComplete.mp3; sourceTree = "<group>"; };
+		19B49C84286C7845007E40A9 /* RunningAbout.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = RunningAbout.mp3; sourceTree = "<group>"; };
+		19B49C85286C7845007E40A9 /* Miss.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Miss.mp3; sourceTree = "<group>"; };
+		19B49C86286C7845007E40A9 /* SavedthePrincess.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = SavedthePrincess.mp3; sourceTree = "<group>"; };
+		19B49C87286C7845007E40A9 /* GameOver.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = GameOver.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		19B49C3F286C6ED0007E40A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19B49C61286C6ED7007E40A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19B49C39286C6ECF007E40A9 = {
+			isa = PBXGroup;
+			children = (
+				19B49C44286C6ED0007E40A9 /* Soundboard */,
+				19B49C5A286C6ED5007E40A9 /* Soundboard WatchKit App */,
+				19B49C68286C6ED7007E40A9 /* Soundboard WatchKit Extension */,
+				19B49C43286C6ED0007E40A9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		19B49C43286C6ED0007E40A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				19B49C42286C6ED0007E40A9 /* Soundboard.app */,
+				19B49C56286C6ED5007E40A9 /* Soundboard WatchKit App.app */,
+				19B49C64286C6ED7007E40A9 /* Soundboard WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		19B49C44286C6ED0007E40A9 /* Soundboard */ = {
+			isa = PBXGroup;
+			children = (
+				19B49C45286C6ED0007E40A9 /* AppDelegate.swift */,
+				19B49C47286C6ED0007E40A9 /* SceneDelegate.swift */,
+				19B49C49286C6ED0007E40A9 /* ViewController.swift */,
+				19B49C4B286C6ED0007E40A9 /* Main.storyboard */,
+				19B49C4E286C6ED5007E40A9 /* Assets.xcassets */,
+				19B49C50286C6ED5007E40A9 /* LaunchScreen.storyboard */,
+				19B49C53286C6ED5007E40A9 /* Info.plist */,
+			);
+			path = Soundboard;
+			sourceTree = "<group>";
+		};
+		19B49C5A286C6ED5007E40A9 /* Soundboard WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				19B49C5B286C6ED5007E40A9 /* Interface.storyboard */,
+				19B49C5E286C6ED7007E40A9 /* Assets.xcassets */,
+			);
+			path = "Soundboard WatchKit App";
+			sourceTree = "<group>";
+		};
+		19B49C68286C6ED7007E40A9 /* Soundboard WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				19B49C7F286C7481007E40A9 /* SoundPlaying.swift */,
+				19B49C69286C6ED7007E40A9 /* InterfaceController.swift */,
+				19B49C6B286C6ED7007E40A9 /* ExtensionDelegate.swift */,
+				19B49C6D286C6ED7007E40A9 /* ComplicationController.swift */,
+				19B49C6F286C6ED9007E40A9 /* Assets.xcassets */,
+				19B49C71286C6ED9007E40A9 /* Info.plist */,
+				19B49C81286C780E007E40A9 /* Audios */,
+			);
+			path = "Soundboard WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		19B49C81286C780E007E40A9 /* Audios */ = {
+			isa = PBXGroup;
+			children = (
+				19B49C84286C7845007E40A9 /* RunningAbout.mp3 */,
+				19B49C82286C7845007E40A9 /* Underground.mp3 */,
+				19B49C83286C7845007E40A9 /* LevelComplete.mp3 */,
+				19B49C85286C7845007E40A9 /* Miss.mp3 */,
+				19B49C87286C7845007E40A9 /* GameOver.mp3 */,
+				19B49C86286C7845007E40A9 /* SavedthePrincess.mp3 */,
+			);
+			path = Audios;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		19B49C41286C6ED0007E40A9 /* Soundboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19B49C7C286C6ED9007E40A9 /* Build configuration list for PBXNativeTarget "Soundboard" */;
+			buildPhases = (
+				19B49C3E286C6ED0007E40A9 /* Sources */,
+				19B49C3F286C6ED0007E40A9 /* Frameworks */,
+				19B49C40286C6ED0007E40A9 /* Resources */,
+				19B49C7B286C6ED9007E40A9 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				19B49C59286C6ED5007E40A9 /* PBXTargetDependency */,
+			);
+			name = Soundboard;
+			productName = Soundboard;
+			productReference = 19B49C42286C6ED0007E40A9 /* Soundboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		19B49C55286C6ED5007E40A9 /* Soundboard WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19B49C78286C6ED9007E40A9 /* Build configuration list for PBXNativeTarget "Soundboard WatchKit App" */;
+			buildPhases = (
+				19B49C54286C6ED5007E40A9 /* Resources */,
+				19B49C77286C6ED9007E40A9 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				19B49C67286C6ED7007E40A9 /* PBXTargetDependency */,
+			);
+			name = "Soundboard WatchKit App";
+			productName = "Soundboard WatchKit App";
+			productReference = 19B49C56286C6ED5007E40A9 /* Soundboard WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		19B49C63286C6ED7007E40A9 /* Soundboard WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19B49C74286C6ED9007E40A9 /* Build configuration list for PBXNativeTarget "Soundboard WatchKit Extension" */;
+			buildPhases = (
+				19B49C60286C6ED7007E40A9 /* Sources */,
+				19B49C61286C6ED7007E40A9 /* Frameworks */,
+				19B49C62286C6ED7007E40A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Soundboard WatchKit Extension";
+			productName = "Soundboard WatchKit Extension";
+			productReference = 19B49C64286C6ED7007E40A9 /* Soundboard WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		19B49C3A286C6ECF007E40A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					19B49C41286C6ED0007E40A9 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					19B49C55286C6ED5007E40A9 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					19B49C63286C6ED7007E40A9 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 19B49C3D286C6ECF007E40A9 /* Build configuration list for PBXProject "Soundboard" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 19B49C39286C6ECF007E40A9;
+			productRefGroup = 19B49C43286C6ED0007E40A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				19B49C41286C6ED0007E40A9 /* Soundboard */,
+				19B49C55286C6ED5007E40A9 /* Soundboard WatchKit App */,
+				19B49C63286C6ED7007E40A9 /* Soundboard WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		19B49C40286C6ED0007E40A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19B49C52286C6ED5007E40A9 /* LaunchScreen.storyboard in Resources */,
+				19B49C4F286C6ED5007E40A9 /* Assets.xcassets in Resources */,
+				19B49C4D286C6ED0007E40A9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19B49C54286C6ED5007E40A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19B49C5F286C6ED7007E40A9 /* Assets.xcassets in Resources */,
+				19B49C5D286C6ED5007E40A9 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19B49C62286C6ED7007E40A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19B49C8D286C7845007E40A9 /* GameOver.mp3 in Resources */,
+				19B49C89286C7845007E40A9 /* LevelComplete.mp3 in Resources */,
+				19B49C8B286C7845007E40A9 /* Miss.mp3 in Resources */,
+				19B49C70286C6ED9007E40A9 /* Assets.xcassets in Resources */,
+				19B49C88286C7845007E40A9 /* Underground.mp3 in Resources */,
+				19B49C8A286C7845007E40A9 /* RunningAbout.mp3 in Resources */,
+				19B49C8C286C7845007E40A9 /* SavedthePrincess.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		19B49C3E286C6ED0007E40A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19B49C4A286C6ED0007E40A9 /* ViewController.swift in Sources */,
+				19B49C46286C6ED0007E40A9 /* AppDelegate.swift in Sources */,
+				19B49C48286C6ED0007E40A9 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19B49C60286C6ED7007E40A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19B49C6C286C6ED7007E40A9 /* ExtensionDelegate.swift in Sources */,
+				19B49C6A286C6ED7007E40A9 /* InterfaceController.swift in Sources */,
+				19B49C6E286C6ED7007E40A9 /* ComplicationController.swift in Sources */,
+				19B49C80286C7481007E40A9 /* SoundPlaying.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		19B49C59286C6ED5007E40A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 19B49C55286C6ED5007E40A9 /* Soundboard WatchKit App */;
+			targetProxy = 19B49C58286C6ED5007E40A9 /* PBXContainerItemProxy */;
+		};
+		19B49C67286C6ED7007E40A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 19B49C63286C6ED7007E40A9 /* Soundboard WatchKit Extension */;
+			targetProxy = 19B49C66286C6ED7007E40A9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		19B49C4B286C6ED0007E40A9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19B49C4C286C6ED0007E40A9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		19B49C50286C6ED5007E40A9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19B49C51286C6ED5007E40A9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		19B49C5B286C6ED5007E40A9 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19B49C5C286C6ED5007E40A9 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		19B49C72286C6ED9007E40A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		19B49C73286C6ED9007E40A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		19B49C75286C6ED9007E40A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CKW52WWR84;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Soundboard WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Soundboard WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKExtensionDelegateClassName = "$(PRODUCT_MODULE_NAME).ExtensionDelegate";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mustafapekdemir.Soundboard.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		19B49C76286C6ED9007E40A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CKW52WWR84;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Soundboard WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Soundboard WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKExtensionDelegateClassName = "$(PRODUCT_MODULE_NAME).ExtensionDelegate";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mustafapekdemir.Soundboard.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		19B49C79286C6ED9007E40A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CKW52WWR84;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = Soundboard_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "Soundboard WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = mustafapekdemir.Soundboard;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mustafapekdemir.Soundboard.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		19B49C7A286C6ED9007E40A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CKW52WWR84;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = Soundboard_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "Soundboard WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = mustafapekdemir.Soundboard;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mustafapekdemir.Soundboard.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		19B49C7D286C6ED9007E40A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CKW52WWR84;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Soundboard/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mustafapekdemir.Soundboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		19B49C7E286C6ED9007E40A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CKW52WWR84;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Soundboard/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mustafapekdemir.Soundboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		19B49C3D286C6ECF007E40A9 /* Build configuration list for PBXProject "Soundboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19B49C72286C6ED9007E40A9 /* Debug */,
+				19B49C73286C6ED9007E40A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19B49C74286C6ED9007E40A9 /* Build configuration list for PBXNativeTarget "Soundboard WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19B49C75286C6ED9007E40A9 /* Debug */,
+				19B49C76286C6ED9007E40A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19B49C78286C6ED9007E40A9 /* Build configuration list for PBXNativeTarget "Soundboard WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19B49C79286C6ED9007E40A9 /* Debug */,
+				19B49C7A286C6ED9007E40A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19B49C7C286C6ED9007E40A9 /* Build configuration list for PBXNativeTarget "Soundboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19B49C7D286C6ED9007E40A9 /* Debug */,
+				19B49C7E286C6ED9007E40A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 19B49C3A286C6ECF007E40A9 /* Project object */;
+}
