@@ -44,9 +44,64 @@
                             </items>
                         </group>
                     </items>
+                    <connections>
+                        <segue destination="bSN-x8-Vco" kind="relationship" relationship="nextPage" id="XRw-I8-pVv"/>
+                    </connections>
                 </controller>
             </objects>
             <point key="canvasLocation" x="-69" y="-28"/>
+        </scene>
+        <!--Table Interface Controller-->
+        <scene sceneID="reo-dn-EW8">
+            <objects>
+                <controller id="bSN-x8-Vco" customClass="TableInterfaceController" customModule="Soundboard_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <table alignment="left" id="Eef-PX-mwu">
+                            <items>
+                                <tableRow identifier="Row" id="qeE-oN-1Vp" customClass="SoundRow" customModule="Soundboard_WatchKit_App" customModuleProvider="target">
+                                    <group key="rootItem" width="1" alignment="left" id="7Hi-SF-4RU">
+                                        <items>
+                                            <label alignment="left" verticalAlignment="center" text="Label" id="tcC-tD-ENU"/>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <outlet property="textLabel" destination="tcC-tD-ENU" id="zMZ-OJ-AK3"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                    <connections>
+                        <outlet property="table" destination="Eef-PX-mwu" id="l9G-dF-E4j"/>
+                        <segue destination="YIi-d5-jqp" kind="relationship" relationship="nextPage" id="NSJ-77-wlE"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="223" y="-28"/>
+        </scene>
+        <!--Custom Interface Controller-->
+        <scene sceneID="8el-AA-jfC">
+            <objects>
+                <controller id="YIi-d5-jqp" customClass="CustomInterfaceController" customModule="Soundboard_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <button width="1" height="0.5" alignment="left" title="Record" id="X9x-hI-IRK">
+                            <color key="backgroundColor" red="0.69503571999441716" green="0.25973583743858525" blue="0.30550967977806781" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <fontDescription key="font" type="system" pointSize="25"/>
+                            <connections>
+                                <action selector="recordTapped" destination="YIi-d5-jqp" id="ecN-rA-GyF"/>
+                            </connections>
+                        </button>
+                        <button width="1" height="0.5" alignment="left" title="Play" id="vc4-yf-GWs">
+                            <color key="backgroundColor" red="0.33781040681973901" green="0.69503571999441716" blue="0.28770898013512747" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <fontDescription key="font" type="system" pointSize="25"/>
+                            <connections>
+                                <action selector="playTapped" destination="YIi-d5-jqp" id="rBI-9m-kO0"/>
+                            </connections>
+                        </button>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="486" y="-28"/>
         </scene>
     </scenes>
 </document>
