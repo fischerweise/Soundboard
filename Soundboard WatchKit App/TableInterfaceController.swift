@@ -27,6 +27,7 @@ class TableInterfaceController: WKInterfaceController, SoundPlaying {
             }
             row.textLabel.setText(sound)
         }
+        
     }
 
     override func willActivate() {

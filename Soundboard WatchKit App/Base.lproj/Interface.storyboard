@@ -61,8 +61,12 @@
                                 <tableRow identifier="Row" id="qeE-oN-1Vp" customClass="SoundRow" customModule="Soundboard_WatchKit_App" customModuleProvider="target">
                                     <group key="rootItem" width="1" alignment="left" id="7Hi-SF-4RU">
                                         <items>
-                                            <label alignment="left" verticalAlignment="center" text="Label" id="tcC-tD-ENU"/>
+                                            <label alignment="left" verticalAlignment="center" text="Label" id="tcC-tD-ENU">
+                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="font" style="UICTFontTextStyleBody"/>
+                                            </label>
                                         </items>
+                                        <color key="backgroundColor" red="0.86105755862501476" green="0.76078084685577485" blue="0.063869129775706232" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                     </group>
                                     <connections>
                                         <outlet property="textLabel" destination="tcC-tD-ENU" id="zMZ-OJ-AK3"/>
@@ -86,14 +90,14 @@
                     <items>
                         <button width="1" height="0.5" alignment="left" title="Record" id="X9x-hI-IRK">
                             <color key="backgroundColor" red="0.69503571999441716" green="0.25973583743858525" blue="0.30550967977806781" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                            <fontDescription key="font" type="system" pointSize="25"/>
+                            <fontDescription key="font" type="system" weight="thin" pointSize="20"/>
                             <connections>
                                 <action selector="recordTapped" destination="YIi-d5-jqp" id="ecN-rA-GyF"/>
                             </connections>
                         </button>
                         <button width="1" height="0.5" alignment="left" title="Play" id="vc4-yf-GWs">
                             <color key="backgroundColor" red="0.33781040681973901" green="0.69503571999441716" blue="0.28770898013512747" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                            <fontDescription key="font" type="system" pointSize="25"/>
+                            <fontDescription key="font" type="system" weight="thin" pointSize="20"/>
                             <connections>
                                 <action selector="playTapped" destination="YIi-d5-jqp" id="rBI-9m-kO0"/>
                             </connections>
